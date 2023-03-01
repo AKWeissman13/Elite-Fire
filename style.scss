@@ -46,7 +46,7 @@
 $bg-color: #1d1d1c; //#17110F;
 $content-width: 1544px - 123px * 2;
 body {
-    background-color: red;
+    background-color: $bg-color;
     font-family: "Lab Grotesque";
     font-style: normal;
     max-width: 1544px;
