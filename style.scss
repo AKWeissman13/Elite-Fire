@@ -46,11 +46,11 @@
 $bg-color: #1d1d1c; //#17110F;
 $content-width: 1544px - 123px * 2;
 body {
-    background-color: $bg-color;
+    background-color: red;
     font-family: "Lab Grotesque";
     font-style: normal;
     max-width: 1544px;
-    min-width: 1543px;
+    min-width: 1500px;
 }
 
 .wrap {
