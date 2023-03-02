@@ -4,31 +4,31 @@
 
 @font-face {
   font-family: "Scania Sans CY Headline";
-  src: local("Scania Sans CY  Headline Regular"), local("Scania-Sans-CY--Headline-Regular"), url("/fonts/ScaniaSansCYHeadline-Regular.woff2") format("woff2"), url("/fonts/ScaniaSansCYHeadline-Regular.woff") format("woff"), url("/fonts/ScaniaSansCYHeadline-Regular.ttf") format("truetype");
+  src: local("Scania Sans CY  Headline Regular"), local("Scania-Sans-CY--Headline-Regular"), url("../fonts/ScaniaSansCYHeadline-Regular.woff2") format("woff2"), url("../fonts/ScaniaSansCYHeadline-Regular.woff") format("woff"), url("../fonts/ScaniaSansCYHeadline-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Scania Sans CY Headline";
-  src: local("Scania Sans CY  Condensed Bold"), local("Scania-Sans-CY--Condensed-Bold"), url("/ScaniaSansCYCondensed-Bold.woff2") format("woff2"), url("/ScaniaSansCYCondensed-Bold.woff") format("woff"), url("/ScaniaSansCYCondensed-Bold.ttf") format("truetype");
+  src: local("Scania Sans CY  Condensed Bold"), local("Scania-Sans-CY--Condensed-Bold"), url("../ScaniaSansCYCondensed-Bold.woff2") format("woff2"), url("../ScaniaSansCYCondensed-Bold.woff") format("woff"), url("../ScaniaSansCYCondensed-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: "Lab Grotesque";
-  src: local("Lab Grotesque Light"), local("Lab-Grotesque-Light"), url("/fonts/LabGrotesque-Light.woff2") format("woff2"), url("/fonts/LabGrotesque-Light.woff") format("woff"), url("/fonts/LabGrotesque-Light.ttf") format("truetype");
+  src: local("Lab Grotesque Light"), local("Lab-Grotesque-Light"), url("../fonts/LabGrotesque-Light.woff2") format("woff2"), url("../fonts/LabGrotesque-Light.woff") format("woff"), url("../fonts/LabGrotesque-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "Lab Grotesque";
-  src: local("Lab Grotesque Regular"), local("Lab-Grotesque-Regular"), url("/fonts/LabGrotesque-Regular.woff2") format("woff2"), url("/fonts/LabGrotesque-Regular.woff") format("woff"), url("/fonts/LabGrotesque-Regular.ttf") format("truetype");
+  src: local("Lab Grotesque Regular"), local("Lab-Grotesque-Regular"), url("../fonts/LabGrotesque-Regular.woff2") format("woff2"), url("../fonts/LabGrotesque-Regular.woff") format("woff"), url("../fonts/LabGrotesque-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Lab Grotesque";
-  src: local("Lab Grotesque Medium"), local("Lab-Grotesque-Medium"), url("/fonts/LabGrotesque-Medium.woff2") format("woff2"), url("/fonts/LabGrotesque-Medium.woff") format("woff"), url("/fonts/LabGrotesque-Medium.ttf") format("truetype");
+  src: local("Lab Grotesque Medium"), local("Lab-Grotesque-Medium"), url("../fonts/LabGrotesque-Medium.woff2") format("woff2"), url("../fonts/LabGrotesque-Medium.woff") format("woff"), url("../fonts/LabGrotesque-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
@@ -262,7 +262,7 @@ body {
   padding-bottom: 248px;
   width: 1298px;
   margin: 0 auto;
-  background: url("/img/kamin.png") no-repeat right top;
+  background: url("../img/kamin.png") no-repeat right top;
   z-index: 10;
 }
 .banner1__title {
@@ -517,7 +517,7 @@ body {
   position: absolute;
   width: 14.65px;
   height: 19.14px;
-  background-image: url("/img/fuel2.png");
+  background-image: url("../img/fuel2.png");
   background-size: 100% 100%;
   top: 0;
   right: 0;
@@ -527,7 +527,7 @@ body {
 }
 
 .refuel {
-  background: url("/img/refuel.png") no-repeat;
+  background: url("../img/refuel.png") no-repeat;
   background-position: 98.5% 72.5%;
   position: relative;
   position: relative;
@@ -769,7 +769,7 @@ body {
 }
 .smart-fireplace__picture {
   text-align: center;
-  background-image: url("/img/kamin3.png");
+  background-image: url("../img/kamin3.png");
   width: 1306px;
   height: 600px;
   margin: 0 auto;
@@ -1389,7 +1389,7 @@ body {
           transform: translate(-50%, -50%);
   width: 8px;
   height: 8px;
-  background-image: url("/img/add.png");
+  background-image: url("../img/add.png");
 }
 .constructor__buy {
   display: -webkit-box;
