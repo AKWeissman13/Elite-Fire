@@ -42,6 +42,7 @@ body {
 
 .wrap {
   overflow-x: hidden;
+  width: calc(100vw - (100vw - 100%));
 }
 
 .header__inner {
